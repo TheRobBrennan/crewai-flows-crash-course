@@ -4,13 +4,15 @@ This project requires certain dependencies to be installed for proper functionin
 
 ## Conda Environment
 
+If you need to install conda, please see [Install Miniconda](https://docs.anaconda.com/miniconda/install/#quick-command-line-install)
+
 To create a conda environment with Python 3.12, use the following command:
 
-conda create --name crewai-flows python=3.12
+`conda create --name crewai-flows python=3.12`
 
 To activate the conda environment, use:
 
-conda activate crewai-flows
+`conda activate crewai-flows`
 
 ## Virtualenv
 
