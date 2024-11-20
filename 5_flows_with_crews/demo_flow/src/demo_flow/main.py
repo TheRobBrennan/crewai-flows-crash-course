@@ -4,7 +4,7 @@ from random import randint
 from crewai.flow.flow import Flow, listen, start
 from pydantic import BaseModel
 
-from .crews.poem_crew.poem_crew import PoemCrew
+from demo_flow.crews.poem_crew.poem_crew import PoemCrew
 
 
 class PoemState(BaseModel):
