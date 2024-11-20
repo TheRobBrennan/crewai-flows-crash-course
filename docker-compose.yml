@@ -1,7 +1,0 @@
-services:
-  crewai:
-    build: .
-    volumes:
-      - .:/app
-    stdin_open: true  # Keep STDIN open
-    tty: true        # Allocate a pseudo-TTY 

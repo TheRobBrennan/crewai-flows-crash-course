@@ -1,10 +1,12 @@
+import os
+import debugpy
 from crewai.flow.flow import Flow, listen, start
 from dotenv import load_dotenv
 from litellm import completion
 
 load_dotenv()
 
-
+# Create a new ExampleFlow class that inherits from Flow
 class ExampleFlow(Flow):
     model = "gpt-4o-mini"
 
