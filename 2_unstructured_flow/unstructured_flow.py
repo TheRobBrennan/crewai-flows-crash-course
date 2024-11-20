@@ -1,7 +1,7 @@
 from crewai.flow.flow import Flow, listen, start
 
 
-class UntructuredExampleFlow(Flow):
+class UnstructuredExampleFlow(Flow):
 
     @start()
     def first_method(self):
@@ -25,7 +25,7 @@ class UntructuredExampleFlow(Flow):
         print(f"State after third_method: {self.state}")
 
 
-flow = UntructuredExampleFlow()
+flow = UnstructuredExampleFlow()
 flow.kickoff()
 
 print(f"Final state:\n{flow.state}")
