@@ -1,15 +1,7 @@
 {
   "name": "crewai-flows-crash-course",
   "version": "0.0.0",
-  "scripts": {
-    "start": "docker compose up -d && docker compose exec crewai bash",
-    "stop": "docker compose down",
-    "docker:build": "docker compose build",
-    "docker:up": "docker compose up -d",
-    "docker:shell": "docker compose exec crewai bash",
-    "docker:down": "docker compose down",
-    "docker:rebuild": "docker compose down && docker compose build && docker compose up -d"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheRobBrennan/crewai-flows-crash-course.git"

@@ -2,31 +2,31 @@
 
 This project requires certain dependencies to be installed for proper functioning. Follow the instructions below to set up your environment.
 
-## Development Environment
+## Conda Environment
 
-This project uses Docker to ensure a consistent development environment.
+To create a conda environment with Python 3.12, use the following command:
 
-### Quick Start
+```sh
+conda create --name crewai-flows python=3.12
 
-```bash
-# First time setup
-npm run docker:build
-
-# Start development environment
-npm start
-
-# Stop development environment
-npm stop
 ```
 
-### Additional Commands
+To activate the conda environment, use:
 
-```bash
-# Rebuild container (after environment changes)
-npm run docker:rebuild
+```sh
+conda activate crewai-flows
+```
 
-# Individual docker controls
-npm run docker:up      # Start container
-npm run docker:shell   # Open shell in running container
-npm run docker:down    # Stop container
+## Installing Dependencies
+
+To install the dependencies listed in the `requirements.txt` file, use:
+
+```sh
+pip install -r requirements.txt
+```
+
+```sh
+conda create -y --name crewai-flows python=3.12 
+conda activate crewai-flows 
+pip install -r requirements.txt
 ```
