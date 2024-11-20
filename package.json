@@ -2,7 +2,13 @@
   "name": "crewai-flows-crash-course",
   "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "docker compose up -d && docker compose exec crewai bash",
+    "stop": "docker compose down",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d",
+    "docker:shell": "docker compose exec crewai bash",
+    "docker:down": "docker compose down",
+    "docker:rebuild": "docker compose down && docker compose build && docker compose up -d"
   },
   "repository": {
     "type": "git",
