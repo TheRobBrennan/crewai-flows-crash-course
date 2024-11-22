@@ -6,13 +6,17 @@ TL;DR - Navigate to the flow source directory, activate the conda environment an
 
 ```sh
 # Navigate to the flow source directory
-cd 6_write_a_book_with_flows
+cd 6_write_a_book_with_flows/write_a_book_with_flows
 
 # Activate the conda environment
 conda activate crewai-flows
 
-# Run the flow as a module
-python -m demo_flow.main
+# Install crewai
+crewai install
+
+# Run the flow
+crewai flow kickoff
+
 ```
 
 ## Overview
