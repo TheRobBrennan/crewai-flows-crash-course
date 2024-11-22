@@ -2,6 +2,19 @@
 
 Welcome to the Book Writing Flow, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
+TL;DR - Navigate to the flow source directory, activate the conda environment and run the flow as a module.
+
+```sh
+# Navigate to the flow source directory
+cd 6_write_a_book_with_flows
+
+# Activate the conda environment
+conda activate crewai-flows
+
+# Run the flow as a module
+python -m demo_flow.main
+```
+
 ## Overview
 
 This flow will guide you through the process of writing a book by leveraging multiple AI agents, each with specific roles. Here's a brief overview of what will happen in this flow:
